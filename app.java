@@ -6,8 +6,8 @@ public class App{
         ArrayList<ContaCorrente> contas = new ArrayList<ContaCorrente>();
         contas.add(gabriel);
 
-        Gabriel.depositar(15000);
-        Gabriel.sacar(2000);
+        gabriel.depositar(15000);
+        gabriel.sacar(2000);
         System.out.println(contas.getsaldo(gabriel));
     }
 }
