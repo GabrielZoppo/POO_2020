@@ -4,7 +4,7 @@ public class ContaCorrente {
     private double saldo;
 
     public ContaCorrente(double valor){
-        this.saldo + valor;
+        this.saldo = valor;
     }
 
     public double getSaldo(){
@@ -21,7 +21,7 @@ public class ContaCorrente {
         }
 
     public double sacar(double valor){
-        if(valor >=0){
+        if(valor <=0){
             return saldo;
         }
         saldo = saldo - valor;
