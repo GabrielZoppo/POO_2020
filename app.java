@@ -10,6 +10,6 @@ public class App{
 
         gabriel.depositar(15000);
         gabriel.sacar(2000);
-        System.out.println(gabriel.getSaldo);
+        System.out.println(gabriel.getSaldo());
     }
 }
